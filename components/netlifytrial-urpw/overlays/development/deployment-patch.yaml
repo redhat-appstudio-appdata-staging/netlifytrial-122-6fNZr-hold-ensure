@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: netlifytrial-urpw
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/pshivpuj-tenant/netlifytrial-122/netlifytrial-urpw@sha256:f81ddecfa9eda4018136ede31e30280fe7d217e07500a5dcbe9fe14caf01f63f
+        name: my-nodejs
+        resources: {}
+status: {}
